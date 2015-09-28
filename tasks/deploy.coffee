@@ -3,7 +3,6 @@ exec = require("child_process").exec
 
 runBushCommands = (command) ->
     deferred = When.defer()
-    console.log "RUN ", command
     exec command, (err) ->
         if err
             console.log "ERROR: ", err
