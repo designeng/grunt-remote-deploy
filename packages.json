@@ -1,34 +1,26 @@
 {
-  "name": "grunt-remote-deploy",
-  "description": "Grunt deployment",
-  "version": "0.0.1",
-  "homepage": "https://github.com/designeng/grunt-remote-deploy",
   "author": {
     "name": "Denis Savenok",
     "email": "denissavenok@gmail.com",
     "url": "http://designeng.github.io"
   },
+  "name": "grunt-autocreationtests",
+  "description": "grunt remote-deploy",
+  "version": "0.0.3",
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git://github.com/designeng/grunt-remote-deploy.git"
+    "url": ""
   },
-  "bugs": {
-    "url": "https://github.com/designeng/grunt-remote-deploy/issues"
+  "engines": {
+    "node": "~0.6.10"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/designeng/grunt-remote-deploy/blob/master/LICENSE-MIT"
-    }
-  ],
-  "devDependencies": {
-    "grunt": "~0.4.4"
-  },
-  "keywords": [
-    "gruntplugin",
-    "deploy"
-  ],
+  "scripts": {},
   "dependencies": {
-    "when": "^3.7.3"
-  }
+    "grunt": "~0.4.1"
+  },
+  "readme": "## grunt remote deploy task",
+  "readmeFilename": "README.md",
+  "_id": "grunt-remote-deploy@0.0.3",
+  "_from": "grunt-remote-deploy@"
 }
