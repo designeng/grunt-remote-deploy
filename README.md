@@ -1,4 +1,4 @@
-#grunt-remote-deploy (Version: 0.0.1)
+#grunt-remote-deploy (Version: 0.0.3)
 
 #Getting Started
 
