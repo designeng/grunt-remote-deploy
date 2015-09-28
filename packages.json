@@ -17,7 +17,8 @@
   },
   "scripts": {},
   "dependencies": {
-    "grunt": "~0.4.1"
+    "grunt": "~0.4.1",
+    "when": "^3.7.3"
   },
   "readme": "## grunt remote deploy task",
   "readmeFilename": "README.md",
