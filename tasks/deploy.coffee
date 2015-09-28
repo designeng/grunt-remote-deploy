@@ -12,7 +12,7 @@ runBushCommands = (command) ->
     return deferred.promise
 
 module.exports = (grunt) ->
-    grunt.registerTask "deployToRemote", "deploy to remote origin", (branch) ->
+    grunt.registerTask "grunt-remote-deploy", "deploy to remote origin", (branch) ->
         done = @async()
         date = new Date()
 
